@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+#photo {
+  max-width: 100%;
+  height: auto;
+}
+
+.info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.like-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#previous-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.previous-photo {
+  margin: 10px;
+  text-align: center;
+}
+
+.previous-photo img {
+  max-width: 150px;
+  height: auto;
+}
